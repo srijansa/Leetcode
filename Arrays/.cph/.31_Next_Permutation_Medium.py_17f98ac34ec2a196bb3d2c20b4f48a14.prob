@@ -1,0 +1,1 @@
+{"name":"Local: 31_Next_Permutation_Medium","url":"c:\\Leetcode\\Arrays\\31_Next_Permutation_Medium.py","tests":[{"id":1716234391992,"input":"[1,1,5]","output":"[1,5,1]"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode\\Arrays\\31_Next_Permutation_Medium.py","group":"local","local":true}
