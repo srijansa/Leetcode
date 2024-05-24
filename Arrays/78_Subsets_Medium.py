@@ -4,6 +4,9 @@ class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         """
         I am not able to understand how the output is wrong. I understand my solution is incomplete by not able to proceed further on why my input is wrong. 
+        Completed but need to understand again. 
+        Use echo [1, 2, 3] | python 78_Subsets_Medium.py
+        Answer is: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
         """
         result=[[]]
         for i in range(len(nums)):
