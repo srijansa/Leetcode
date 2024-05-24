@@ -7,18 +7,21 @@ class Solution:
         """
         result=[[]]
         for i in range(len(nums)):
-            for j in range(i, len(nums)):
-                if i == j:
-                    print('Value of i', i, 'Value of j: ', j)
-                    arr=[]
-                    arr.append(nums[j])
-                    print('Value of arr: ', arr)
-                    result.append(arr)
-                    print('Value of result: ', result)
-                else:
-                    arr.append(nums[j])
-                    if arr not in result:
-                        result.append(arr)
+            # for j in range(i, len(nums)):
+            #     if i == j:
+            #         print('Value of i', i, 'Value of j: ', j)
+            #         arr=[]
+            #         arr.append(nums[j])
+            #         print('Value of arr: ', arr)
+            #         result.append(arr)
+            #         print('Value of result: ', result)
+            #     else:
+            #         arr.append(nums[j])
+            #         if arr not in result:
+            #             result.append(arr)
+            result = [[]]
+            for num in nums:
+                result += [curr + [num] for curr in result]
         return result
     
 
